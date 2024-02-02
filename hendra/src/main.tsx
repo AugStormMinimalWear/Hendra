@@ -5,18 +5,16 @@ import "./index.css";
 import Aug from "./Aug.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
   {
-    path: "/",
+    path: "/Aug",
     element: <Aug />,
   },
 ]);
-
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
